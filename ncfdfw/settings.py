@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'ncfdfw.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': "d4oqo3ug1obfjq",
+        'USER': "ttpzrdmzypwnwd",
+        'PASSWORD': 'DDPeVyh4I88Np32oPKmoYMTkOX',
+        'HOST': 'ec2-54-235-123-254.compute-1.amazonaws.com',
+        'PORT': '5432',  
     }
 }
 
