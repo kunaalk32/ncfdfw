@@ -25,7 +25,9 @@ SECRET_KEY = 'utg)*@@#w^)xx=oln_pw@0xcih1j5av1a$d-xde8%4ylphm11f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
