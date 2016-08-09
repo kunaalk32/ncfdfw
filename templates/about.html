@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<div class="container about-featurette">
+
+	<div class="row featurette" id="about1">
+	    <div class="col-md-7">
+	      <h2 class="featurette-heading">{{about_instance.title1}}</h2>
+	      <p class="lead">{{about_instance.content1}}</p>
+	    </div>
+	    <div class="col-md-5" style="padding-top: 5vh; padding-bottom: 5vh">
+	      <img class="featurette-image img-responsive center-block" src='{% static "images/ewingsarcoma.jpg" %}' alt="Insert Image Here">
+	    </div>
+	</div>
+	</div>
+
+
+	<div class="container about-featurette">
+	<div class="row featurette" id="about2">
+
+	    <div class="col-md-5">
+	      <img class="featurette-image img-responsive center-block" src='{% static "images/logo.png" %}' alt="Insert Image Here">
+	    </div>
+
+	    <div class="col-md-7">
+	      <h2 class="featurette-heading">{{about_instance.title2}}</h2>
+	      <p class="lead">{{about_instance.content2}}</p>
+	    </div>
+
+	</div>
+</div>

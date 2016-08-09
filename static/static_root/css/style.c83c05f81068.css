@@ -1,0 +1,86 @@
+body {
+	background-color: #202324;
+	padding-top: 70px;
+}
+.navbar-default {
+	background-color: rgba(255, 255, 255, .9);
+	border-color: rgba(245,245,245, .9);
+}
+
+.active-page {
+	background-color: rgba(200, 200, 200, .8);
+}
+
+.item .img-responsive {
+	margin:auto;
+}
+.donate {
+	background-color: #AD974F;
+}
+
+.donate a {
+	color: white;
+}
+
+#about-divider{
+	border-top: 2px solid #A8844A;
+}
+
+#nishant {
+	z-index: -1;
+	position: relative;
+	margin:auto;
+
+}
+
+h1 {
+	color: white;
+}
+
+p{
+	/*color: rgb(220,220,220);*/
+	color: #CBB682;
+}
+
+.featurette {
+	background-color: rgba(0,0,0,.5);
+}
+
+.about-featurette {
+	margin-top: 5vh;
+}
+
+.featurette-heading {
+	color: white;
+	border-bottom: 1px solid #CBB682;
+}
+#home {
+	min-height: 95vh;
+}
+
+#about {
+	min-height: 100vh;
+	/*background-color: #E9DBBD;*/
+	background-color: #F2E4C7;
+}
+
+#events {
+	background-color: #A08C5B;
+	min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		font-size: 25px;
+		padding-top: 17px;
+	}
+
+	.navbar-right li {
+		font-size: 15px;
+		padding-top: 3px;
+	}
+
+	.navbar-right {
+		height: 100%;
+	}
+}

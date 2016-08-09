@@ -1,0 +1,145 @@
+@media (min-width: 992px) { 
+	.card-text {
+		min-height: 80px;
+	}
+}
+
+
+body {
+	background-color: #202324;
+	padding-top: 70px;
+}
+.navbar-default {
+	background-color: rgba(255, 255, 255, .9);
+	border-color: rgba(245,245,245, .9);
+}
+
+.active-page {
+	background-color: rgba(200, 200, 200, .8);
+}
+
+.item .img-responsive {
+	margin:auto;
+}
+#donate-nav {
+	background-color: #AD974F;
+	color: white;
+}
+
+.card {
+	/*background-color: rgba(255,255,255,.8);*/
+	background-color: #CBB682;
+	border-radius: 2.5%;
+	border: 2px solid #A08C5B;
+	box-shadow: 7px 7px 7px rgba(0,0,0,.2);
+	height: 36vh;
+	margin-top: 3vh;
+}
+.card .list-group {
+	border-radius: 2.5%;
+	background-color: #D1BB86;
+}
+.list-group-item {
+	background-color: #D1BB86;
+	border-top: 1px solid #A08C5B;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #A08C5B;
+}
+.card-text {
+	color:white;
+}
+.card-title b { 
+	color: #4A4131;
+}
+
+.card-title strong {
+	color: #594E3A;
+}
+.dark-divider{
+	border-top: 2px solid #A8844A;
+}
+
+#nishant {
+	z-index: -1;
+	position: relative;
+	margin:auto;
+
+}
+
+h1 {
+	color: white;
+}
+
+p{
+	/*color: rgb(220,220,220);*/
+	color: #CBB682;
+}
+
+.featurette {
+	background-color: rgba(0,0,0,.5);
+	border: 1px solid white;
+}
+
+.about-featurette {
+	margin-top: 5vh;
+}
+
+.featurette-heading {
+	color: white;
+	border-bottom: 1px solid #CBB682;
+}
+#home {
+	min-height: 95vh;
+	margin-top: -7vh;
+}
+
+#about {
+	min-height: 100vh;
+	/*background-color: #E9DBBD;*/
+	background-color: #F2E4C7;
+	padding-bottom: 5vh;
+}
+
+#events {
+	background-color: #CBB682;
+	min-height: 100vh;
+	padding-bottom: 7vh;
+}
+
+#donate {
+	background-color: #A08C5B;
+	padding-bottom: 20px;
+}
+
+.light-divider {
+	color:white;
+}
+
+#donate2 div h1 {
+	font-size: 25px
+}
+
+footer {
+	padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		font-size: 25px;
+		padding-top: 17px;
+	}
+
+	.navbar-right li {
+		font-size: 15px;
+		padding-top: 3px;
+	}
+
+	.navbar-right {
+		height: 100%;
+	}
+
+	#donate {
+		min-height: 100vh;
+	}
+}
