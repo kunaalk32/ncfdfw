@@ -2,6 +2,10 @@
 	.card-text {
 		min-height: 80px;
 	}
+
+	#donate {
+		min-height: 100vh;
+	}
 }
 
 
@@ -137,9 +141,5 @@ footer {
 
 	.navbar-right {
 		height: 100%;
-	}
-
-	#donate {
-		min-height: 100vh;
 	}
 }

@@ -66,26 +66,34 @@ $(document).ready(function(){
     //
     // Donate Waypoint
     //
-    $("#donate").waypoint(function(direction){
-        if (direction == 'down'){
-            $('#events-nav').removeClass('active-page');
-        }
 
-        else if (direction == 'up'){
-            $('#events-nav').addClass('active-page');
-        }
-    }, {offset: '10%'});
+    if (screen.width >= 992) {
+        $("#donate").waypoint(function(direction){
+            if (direction == 'down'){
+                $('#events-nav').removeClass('active-page');
+            }
 
-    $("#donate").waypoint(function(direction){
-        if (direction == 'down'){
+            else if (direction == 'up'){
+                $('#events-nav').addClass('active-page');
+            }
+        }, {offset: '10%'});
 
-            $('#donate1').fadeIn(1000);
-            $("#donate2").fadeIn(1000);
-        }
+        $("#donate").waypoint(function(direction){
+            if (direction == 'down'){
 
-        else if (direction == 'up'){
-            $('#donate1').fadeOut(1000);
-            $("#donate2").fadeOut(1000);
-        }
-    }, {offset: '50%'});
+                $('#donate1').fadeIn(1000);
+                $("#donate2").fadeIn(1000);
+            }
+
+            else if (direction == 'up'){
+                $('#donate1').fadeOut(1000);
+                $("#donate2").fadeOut(1000);
+            }
+        }, {offset: '50%'});
+    }
+
+    if (screen.width < 992) {
+        $('#donate1').style.display = "block";
+        $("#donate2").style.display = "block";
+    }
 });
